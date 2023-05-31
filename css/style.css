@@ -1,0 +1,1273 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+/* https://www.figma.com/file/dXaVu0G8Y5yFSTmZakp30x/eFoodWebdesign-(Copy)?node-id=0-1&t=4935wCuZmOSQbQET-0 */
+* {
+    padding: 0;
+    margin: 0;
+}
+.p {
+    margin: 0;
+    padding: 0;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 90%;
+}
+
+.container, .container_1, .container_23, .container_3, .container_5 {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.container_3, .container_5 {
+    width: 90%;
+}
+
+.containerPEECA {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+
+.hat {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hat_nav a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.link button {
+    margin-right: 30px;
+}
+
+.hat_nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 100%;
+    padding: 70px 0;
+}
+
+.under_nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+
+.leftside {
+    display: flex;
+    width: 100%;
+    background-color: #f3f3f3;
+    align-items: baseline;
+    flex-direction: column;
+    
+}
+
+.rightside {
+    display: flex;
+    width: 100%;
+    background-color: #f3f3f3;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rightside img {
+    max-width: 700px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.ontop {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 78px;
+
+    color: #363853;
+    max-width: 530px;
+}
+
+.deffont {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    max-width: 513px;
+    margin-top: 23px;
+}
+
+.underall {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    max-width: 513px;  
+    padding: 14px 28px;
+    background-color: #FF7A50;
+    border-radius: 5px;
+    border: 0;
+}
+
+.link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #363853;
+    max-width: 513px;   
+    margin-top: 45px;
+    align-self: flex-start;
+}
+
+.sec2, .sec3, .sec4, .sec5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #f3f3f3;
+}
+
+.sec4 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.butcategories{
+    background-color: #ffffff; 
+    padding: 1% 2%;
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    display: flex;
+    align-items: center;
+    width: 18.5%;
+    justify-content: space-around;
+}
+
+.categories {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.precategories p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #363853;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
+
+.zvezdi {
+    max-width: 120px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18.5%;
+    background: #FFFFFF;
+    padding: 1.5% 0;
+    border-radius: 12px;
+    justify-content: space-between;
+    min-width: 0;
+}
+
+.cards p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #363853;
+    text-align: center;
+}
+
+.cards img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.cards_sec, .cards_sec_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.cards_sec_1{
+    width: 100%;
+}
+
+.container_23 {
+    width: 95%;
+}
+
+.addto {
+    background-color: #FF7A50;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.ludi {
+    width: 50%;
+    object-fit: contain;
+}
+
+.texta p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    color: #363853;
+}
+
+.texta p1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+    padding-top: 5%;
+}
+
+.texta {
+    padding-top: 155px;
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+}
+
+.ludiitexta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seemore p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 9% 20%;
+}
+
+.seemore {
+    background: #FF7A50;
+    box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 30px 30px 1px 30px;
+    width: 29%;
+    margin-top: 5%;
+    margin-bottom: 25%;
+}
+
+p1 img {
+    padding-right: 2%;
+}
+
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: unset;
+    width: 28%;
+    background: #f3f3f3;
+    padding: 1.5% 0;
+    border-radius: 12px;
+    align-items: start;
+    max-width: 345px;
+}
+
+.pizi {
+    object-fit: contain;
+    width: 100%;
+}
+
+.topfud {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    color: #363853;
+    text-align: center;
+}
+
+.strelochka {
+    background: #FF7A50;
+    box-shadow: 0px 5px 12px rgba(255, 104, 56, 0.19);
+    border-radius: 20px 20px 0px 20px;
+    padding: 4%;
+    width: 15%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.vremya {
+    display: flex;
+    justify-content: space-between;
+    width: 102%;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card2 {
+    padding: 2%;
+}
+
+.peeca {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #363853;
+    opacity: 0.9;
+    padding-right: 5%;
+}
+
+.peeca2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #363853;
+    padding-top: 6%;
+}
+
+.devchonkaitextic {
+    display: flex;
+    padding-top: 67px;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sec5 {
+    padding-top: 98px;
+    display: flex;
+    flex-direction: column;
+}
+
+.devchenka {
+    width: 45%;
+    object-fit: contain;
+}
+
+.citata {
+    padding-top: 67px;
+}
+
+.under_textik {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12%;
+    align-items: center;
+}
+
+.textik {
+    width: 49%;
+}
+
+.citata {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 0.5px;
+    color: #363853;
+}
+
+.zagolovok {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF7A50;
+}
+
+.dop {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AAAAAA;
+    padding-top: 18px;
+}
+
+.dvestrelochki {
+    display: flex;
+    align-items: center;
+    width: 14%;
+    justify-content: space-between;
+    align-self: flex-end;
+    padding-right: 7%;
+}
+
+
+.strelochkiLEFT, .strelochkiRAIT {
+    width: 32px;
+    object-fit: contain;
+}
+
+.container_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 139px;
+}
+
+.glav_textik, .ne_glav_textik {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    color: #37383D;
+}
+
+.ne_glav_textik {
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.social {
+    padding-right: 7px;
+}
+
+.socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.logo {
+    padding-bottom: 20px;
+}
+
+.footer_in_footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 52px;
+    padding-bottom: 85px;
+}
+
+.textinfooter {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+}
+
+.threetexts {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    flex-wrap: nowrap;
+}
+
+.cards_sec.show, .cards_sec.hide {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.butcategories.act {
+    background-color: #FF7A50;
+}
+
+.show{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
+.dota {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #a0a1a9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active {
+    background-color: #FF7A50;
+}
+
+.modaal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.activemod {
+	display: block;
+}
+
+.modaalconteeent {
+    width: 80%;
+    max-width: 700px;
+    margin: 100px auto;
+    box-shadow: 1px 1px 10px #777777;
+    padding: 5%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.headinmodaal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.strelochka.acttext + .strelochkacontent {
+	display: block;
+}
+.strelochka.actaccord {
+	background-color: #37383D;
+}
+.strelochkacontent {
+	display: none;
+	border-radius: 15px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.04), 0 4px 20px rgba(0, 0, 0, 0.1);
+	margin: 5%;
+	background-color: #FF7A50;
+}
+
+.strelochkacontent p {
+    padding: 5%;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.hamb-filed {
+    display: none;
+}
+
+.menushka  .hat_nav {
+    display: none;
+}
+
+.fotki {
+    width: 40px;
+}
+
+@media (max-width: 1024px) {
+    .ontop {
+        font-size: 50px;
+        line-height: 56px;
+    }
+
+    .cards p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .addto {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .deffont {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .hat_nav a{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .iconka{
+        width: 14px;
+    }
+
+    .underall{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+
+    .precategories p{
+        font-size: 30px;
+    }
+
+    .fotki{
+        width: 25px;
+    }
+
+    .texta, .topfud{
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .texta p1{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .seemore p{
+        font-size: 12px;
+    }
+
+    .peeca2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .peeca {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .vremya img{
+        width: 14px;
+    }
+
+    .strelochkacontent p{
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .citata {
+        font-size: 16px;
+        padding-top: 50px;
+        line-height: 22px;
+    }
+
+    .zagolovok {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .dop {
+        font-size: 12px;
+        line-height: 20px;
+        padding-top: 10px;
+    }
+
+    .dot {
+        width: 14px;
+        height: 14px;
+    }
+
+    .dvestrelochki {
+        width: 20%;
+    }
+
+    .glav_textik {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .ne_glav_textik {
+        font-size: 13px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ontop {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .cards p{
+        font-size: 9px;
+        line-height: 13px;
+    }
+
+    .addto {
+        font-size: 10px;
+        line-height: 8px;
+    }
+
+    .deffont {
+        font-size: 10px;
+        line-height: 14px;
+        padding-bottom: 50px;
+    }
+
+    .hat_nav a{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .iconka{
+        width: 12px;
+    }
+
+    .underall{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .link {
+        font-size: 14px;
+    }
+
+    .precategories p{
+        font-size: 22px;
+    }
+
+    .butcategories{
+        font-size: 8.6px;
+    }
+
+    .fotki{
+        width: 25px;
+    }
+
+    .texta p, .topfud{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .texta p1{
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .texta img {
+        width: 12%;
+    }
+
+    .seemore p{
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .peeca2 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .peeca {
+        font-size: 9px;
+        line-height: 8px;
+    }
+
+    .vremya img{
+        width: 12px;
+    }
+
+    .strelochkacontent p{
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .citata {
+        font-size: 12px;
+        padding-top: 50px;
+        line-height: 18px;
+    }
+
+    .zagolovok {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .dop {
+        font-size: 11px;
+        line-height: 16px;
+        padding-top: 10px;
+    }
+
+    .topfud {
+        font-size: 20px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    .dvestrelochki {
+        width: 20%;
+    }
+
+    .glav_textik {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .ne_glav_textik {
+        font-size: 8px;
+        line-height: 20px;
+    }
+
+    .textinfooter {
+        font-size: 8px;
+    }
+}
+@media (max-width: 768px) {
+	.hat  .hat_nav {
+		display: none;
+	}
+	
+	.hamb-filed {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+        align-self: flex-end;
+        padding-top: 20px;
+	}
+	
+	.menushka {
+		display: none;  
+		position: fixed;
+		width: 47%;
+		height: 40%;
+		top: 70px;
+		right: -100%;
+		z-index: 200;
+		display: flex;
+		background-color: rgb(233, 233, 233);
+		transition: 0.3s;
+	}
+	.menushka.open {
+		right: 0;
+	}
+	.menushka  .hat_nav{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+        justify-content: space-around;
+	}
+}
+
+@media (max-width: 425px) {
+    .ontop {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .socials img {
+        width: 20px;
+    }
+
+    .logo {
+        width: 50px;
+        padding-bottom: 5px;
+    }
+
+    .social {
+        width: 12px;
+    }
+
+    .hamb {
+        width: 32px;
+    }
+
+    .cards p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .addto {
+        font-size: 9px;
+        line-height: 7px;
+    }
+
+    .deffont {
+        font-size: 8px;
+        line-height: 12px;
+        padding-bottom: 50px;
+    }
+
+    .hat_nav a{
+        font-size: 8px;
+        line-height: 17px;
+    }
+
+    .iconka{
+        width: 10px;
+    }
+
+    .underall{
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .link {
+        font-size: 12px;
+    }
+
+    .precategories p{
+        font-size: 20px;
+    }
+
+    .butcategories{
+        font-size: 7px;
+    }
+
+    .fotki{
+        width: 23px;
+    }
+
+    .texta p, .topfud{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .texta p1{
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .texta img {
+        width: 10%;
+    }
+
+    .seemore p{
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    .peeca2 {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .peeca {
+        font-size: 8px;
+        line-height: 7px;
+    }
+
+    .vremya img{
+        width: 10px;
+    }
+
+    .strelochkacontent p{
+        font-size: 6px;
+        line-height: 10px;
+    }
+
+    .citata {
+        font-size: 10px;
+        padding-top: 50px;
+        line-height: 16px;
+    }
+
+    .zagolovok {
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .dop {
+        font-size: 10px;
+        line-height: 15px;
+        padding-top: 10px;
+    }
+
+    .topfud {
+        font-size: 18px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    .dvestrelochki {
+        width: 40%;
+    }
+
+    .glav_textik {
+        font-size: 9px;
+        line-height: 16px;
+    }
+
+    .ne_glav_textik {
+        font-size: 7px;
+        line-height: 20.7px;
+    }
+
+    .textinfooter {
+        font-size: 7px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    
+    .ontop {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .devchonkaitextic {
+        padding-top: 0;
+    }
+
+    .addto {
+        font-size: 6px;
+        line-height: 6px;
+    }
+
+    .fotki {
+        width: 12px;
+    }
+
+    .underall {
+        padding: 7px 14px;
+    }
+
+    .container_1 {
+        padding-top: 65px;
+    }
+
+    .sec5 {
+        padding-top: 60px;
+    }
+
+    .footer_in_footer {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .texta {
+        padding-top: 70px;
+    }
+
+    .cards p{
+        font-size: 7px;
+        line-height: 11px;
+    }
+
+    .addto {
+        font-size: 6px;
+        line-height: 6px;
+    }
+
+    .deffont {
+        font-size: 6px;
+        line-height: 10px;
+        padding-bottom: 50px;
+    }
+
+    .hat_nav a{
+        font-size: 6px;
+        line-height: 16px;
+    }
+
+    .iconka{
+        width: 8px;
+        padding: 5px 0;
+    }
+
+    .underall{
+        font-size: 8px;
+        line-height: 16px;
+    }
+
+    .link {
+        font-size: 8px;
+    }
+
+    .precategories p{
+        font-size: 18px;
+        padding-bottom: 15px;
+        padding-top: 45px;
+    }
+
+    .butcategories{
+        font-size: 6px;
+    }
+
+    .texta p, .topfud{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .texta p1{
+        font-size: 8px;
+        line-height: 14px;
+    }
+
+    .texta img {
+        width: 8%;
+    }
+
+    .seemore p{
+        font-size: 6px;
+        line-height: 6px;
+    }
+
+    .peeca2 {
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    .peeca {
+        font-size: 6px;
+        line-height: 6px;
+    }
+
+    .vremya img{
+        width: 8px;
+    }
+
+    .strelochkacontent p{
+        font-size: 4px;
+        line-height: 8px;
+    }
+
+    .strelochkacontent  {
+        border-radius: 5px;
+    }   
+
+    .citata {
+        font-size: 8px;
+        padding-top: 50px;
+        line-height: 14px;
+    }
+
+    .zagolovok {
+        font-size: 9px;
+        line-height: 15px;
+    }
+
+    .dop {
+        font-size: 8px;
+        line-height: 13px;
+        padding-top: 10px;
+    }
+
+    .topfud {
+        font-size: 16px;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .dvestrelochki {
+        width: 42%;
+    }
+
+    .glav_textik {
+        font-size: 6px;
+        line-height: 6px;
+    }
+
+    .ne_glav_textik {
+        font-size: 4px;
+        line-height: 18px;
+    }
+
+    .textinfooter {
+        font-size: 6px;
+    }
+}
+
+
